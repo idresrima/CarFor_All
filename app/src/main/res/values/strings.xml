@@ -4,4 +4,8 @@
     <string name="car">Car</string>
     <string name="fortxt">For</string>
     <string name="all">All</string>
+    <string name="join">Join Our Members</string>
+    <string name="addcar">Add Your Car</string>
+    <string name="bookcar">Book A Car</string>
+    <string name="repaircar">Repair A Car</string>
 </resources>
