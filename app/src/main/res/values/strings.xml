@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CarForAll</string>
     <string name="join_icon">join to our members</string>
+    <string name="car">Car</string>
+    <string name="fortxt">For</string>
+    <string name="all">All</string>
 </resources>
