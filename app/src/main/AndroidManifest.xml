@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CarForAll">
         <activity
+            android:name=".BookCarActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity_join"
             android:exported="false" />
         <activity
