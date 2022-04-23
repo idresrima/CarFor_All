@@ -13,6 +13,9 @@
             android:name=".carForm"
             android:exported="false" />
         <activity
+            android:name=".BookCarActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity_join"
             android:exported="false" />
         <activity
