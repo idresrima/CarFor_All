@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:layout_marginBottom="25dp"
-                    app:srcCompat="@drawable/join_icon" />
+                    app:srcCompat="@drawable/participation" />
 
                 <Button
                     android:id="@+id/join_btn"
@@ -118,7 +118,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
                     android:layout_marginBottom="25dp"
-                    app:srcCompat="@drawable/ask_car_icon" />
+                    app:srcCompat="@drawable/car_rental" />
 
                 <Button
                     android:id="@+id/askcar_btn"
@@ -160,7 +160,7 @@
                     android:layout_width="192dp"
                     android:layout_height="96dp"
                     android:layout_marginBottom="25dp"
-                    app:srcCompat="@drawable/car_repair_icon" />
+                    app:srcCompat="@drawable/robot" />
 
                 <Button
                     android:id="@+id/carrepair_btn"
