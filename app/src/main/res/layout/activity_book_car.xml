@@ -7,4 +7,70 @@
     android:background="#072147"
     tools:context=".BookCarActivity">
 
+    <TextView
+        android:id="@+id/car_txt2"
+        android:layout_width="67dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="@string/fortxt"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_txt4"
+        android:layout_width="67dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="@string/all"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_txt5"
+        android:layout_width="67dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="@string/fortxt2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_txt3"
+        android:layout_width="67dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/almendra_sc"
+        android:text="@string/car"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lease" />
 </androidx.constraintlayout.widget.ConstraintLayout>
