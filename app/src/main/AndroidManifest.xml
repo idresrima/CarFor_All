@@ -23,12 +23,6 @@
             android:name=".BookCarActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_join"
-            android:exported="false" />
-        <activity
-            android:name=".AddCar"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>

@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_car_form.xml" value="0.25" />
-        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/drawable/ask_car_btn_background.xml" value="0.229" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_add_car.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_book_car.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_car_form.xml" value="0.264" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_join.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_log_in.xml" value="0.3625" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Oday/AndroidStudioProjects/CarFor_All/app/src/main/res/layout/fragment_register.xml" value="0.264" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.227" />
         <entry key="app/src/main/res/drawable/add_car_btn_background.xml" value="0.227" />
         <entry key="app/src/main/res/drawable/ask_car_background.xml" value="0.227" />
@@ -13,12 +19,10 @@
         <entry key="app/src/main/res/drawable/join_btn_background.xml" value="0.227" />
         <entry key="app/src/main/res/drawable/repair_car_background.xml" value="0.227" />
         <entry key="app/src/main/res/font/fonts.xml" value="0.21480263157894736" />
-        <entry key="app/src/main/res/layout/activity_add_car.xml" value="0.21009063720703125" />
-        <entry key="app/src/main/res/layout/activity_book_car.xml" value="0.2648261622378701" />
-        <entry key="app/src/main/res/layout/activity_car_form.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_car.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_book_car.xml" value="0.19572368421052633" />
         <entry key="app/src/main/res/layout/activity_join.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.17801513671875002" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17418823242187498" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2111579427913743" />
       </map>
     </option>
   </component>

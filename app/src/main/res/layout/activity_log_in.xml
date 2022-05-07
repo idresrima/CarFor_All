@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#182058"
     android:orientation="vertical"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.login.">
 
 
     <LinearLayout
@@ -144,8 +144,9 @@
 
 
             <ImageView
+                android:id="@+id/btnLogIn"
                 android:layout_width="68dp"
-                android:layout_height="68dp"
+                android:layout_height="69dp"
                 android:layout_gravity="bottom|center"
                 android:layout_marginLeft="80dp"
                 android:src="@drawable/circle_arrow" />

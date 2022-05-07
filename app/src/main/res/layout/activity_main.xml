@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#040C51"
+    android:id="@+id/container1"
     tools:context=".MainActivity">
 
     <androidx.gridlayout.widget.GridLayout
