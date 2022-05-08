@@ -184,10 +184,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="644dp"
         android:backgroundTint="#03A9F4"
-        android:onClick="submitbuttonHandler"
         android:text="SUBMIT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

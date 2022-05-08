@@ -5,168 +5,262 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#072147"
+    android:backgroundTintMode="@null"
     tools:context=".BookCarActivity">
-
-    <TextView
-        android:id="@+id/car_txt2"
-        android:layout_width="67dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="44dp"
-        android:fontFamily="@font/almendra_sc"
-        android:text="@string/fortxt"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/car_txt4"
-        android:layout_width="67dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="72dp"
-        android:fontFamily="@font/almendra_sc"
-        android:text="@string/all"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/car_txt5"
-        android:layout_width="67dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="44dp"
-        android:fontFamily="@font/almendra_sc"
-        android:text="@string/fortxt2"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/car_txt3"
-        android:layout_width="67dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/almendra_sc"
-        android:text="@string/car"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/car_txt6"
-        android:layout_width="125dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="188dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/from"
-        android:textColor="@color/white"
-        android:textSize="45sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/car_txt8"
-        android:layout_width="82dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="188dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/from2"
-        android:textColor="@color/white"
-        android:textSize="45sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/car_txt7"
-        android:layout_width="65dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="188dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/to"
-        android:textColor="@color/white"
-        android:textSize="45sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="36dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lease" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="45dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.956"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/user" />
 
     <Button
         android:id="@+id/btnPick"
-        android:layout_width="131dp"
-        android:layout_height="65dp"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/button_datetime"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
         android:text="Pick Date and TIme"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="268dp" />
-
-    <Button
-        android:id="@+id/btnPick2"
-        android:layout_width="131dp"
-        android:layout_height="65dp"
-        android:layout_centerHorizontal="true"
-        android:text="Pick Date and TIme"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="268dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="16sp"
-        android:textStyle="bold"/>
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="38dp"
-        android:layout_height="41dp"
-        app:srcCompat="@drawable/date"
-        tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="204dp" />
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="37dp"
         android:layout_height="40dp"
-        app:srcCompat="@drawable/date"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="204dp" />
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/date" />
+
+    <Button
+        android:id="@+id/btnPick2"
+        android:layout_width="115dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/button_datetime"
+        android:backgroundTint="@null"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Pick Date and TIme"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="@string/Filters"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="41dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/car_txt6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/date" />
+
+    <TextView
+        android:id="@+id/car_txt7"
+        android:layout_width="78dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/to"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/car_txt8"
+        android:layout_width="71dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/from2"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="345dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="93dp"
+                android:layout_height="74dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/divider_horizontal_dim_dark"
+                app:srcCompat="@drawable/car_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="96dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/divider_horizontal_dim_dark"
+                app:srcCompat="@drawable/fuel" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="101dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/divider_horizontal_dim_dark"
+                app:srcCompat="@drawable/gear_shift" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="112dp">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="102dp"
+                android:layout_height="77dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/divider_horizontal_dim_dark"
+                app:srcCompat="@drawable/car_door" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="103dp"
+                android:layout_height="76dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/divider_horizontal_dim_dark"
+                app:srcCompat="@drawable/charger_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="101dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/divider_horizontal_dim_dark"
+                app:srcCompat="@drawable/gear_stick" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/car_txt6"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/from"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        android:contentDescription="@string/back"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
