@@ -57,4 +57,7 @@
     <string name="explain">Explain</string>
     <string name="MASteptroinic">M/A/Steptroinic</string>
     <string name="add">Adress</string>
+    <string name="show">Show Cars</string>
+    <string name="Delete">Delete car</string>
+    <string name="Edit">Edit car</string>
 </resources>
