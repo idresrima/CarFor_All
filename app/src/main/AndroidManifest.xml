@@ -17,9 +17,6 @@
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity
-            android:name=".carForm"
-            android:exported="false" />
-        <activity
             android:name=".BookCarActivity"
             android:exported="false" />
         <activity

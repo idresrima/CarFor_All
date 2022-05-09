@@ -1,5 +1,6 @@
 package com.example.carforall;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,20 +8,22 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ReportFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+///**
+// * A simple {@link Fragment} subclass.
+// * Use the {@link ReportFragment#newInstance} factory method to
+// * create an instance of this fragment.
+// */
 public class ReportFragment extends Fragment {
 
-//    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    //    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 //    private static final String ARG_PARAM1 = "param1";
 //    private static final String ARG_PARAM2 = "param2";
 //
 //    private String mParam1;
 //    private String mParam2;
+    public ImageButton btnBack;
 
     public ReportFragment() {
         // Required empty public constructor
@@ -56,6 +59,23 @@ public class ReportFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_report, container, false);
+        View view = inflater.inflate(R.layout.fragment_car_form, container, false);
+        configureImageButton(view);
+        return view;
     }
+
+    private void configureImageButton(View v) {
+        ImageButton btn = (ImageButton) v.findViewById(R.id.backbtn);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+    }
+
 }

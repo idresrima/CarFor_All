@@ -55,4 +55,6 @@
     <string name="problem">Need to repair the car?</string>
     <string name="kind">Kind Of The Repair:</string>
     <string name="explain">Explain</string>
+    <string name="MASteptroinic">M/A/Steptroinic</string>
+    <string name="add">Adress</string>
 </resources>

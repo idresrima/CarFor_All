@@ -15,7 +15,7 @@ import android.widget.ImageButton;
 
 public class CarFormFragment extends Fragment {
 
-    public ImageButton btnBack;
+    public Button btnBack;
     public CarFormFragment() {
         // Required empty public constructor
     }
@@ -25,7 +25,22 @@ public class CarFormFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_car_form, container, false);
+        View view = inflater.inflate(R.layout.fragment_car_form, container, false);
+        configureImageButton(view);
         return view;
+    }
+
+    private void configureImageButton(View v) {
+        ImageButton btn = (ImageButton) v.findViewById(R.id.backbtn);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
